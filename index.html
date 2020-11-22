@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Title</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+
+
+<section class="banner">
+    <header id="header">
+        <a href="#" class="logo">Watch</a>
+        <div class="toggle" onclick="toggle()"></div>
+    </header>
+    <div class="content">
+        <div class="contentBx">
+            <h2><span>Future On </span> <span class="putu">Your Hand</span></h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.Dignissimos ullam eos  <br>
+                veniam sunt earum voluptatum nam sint expedita quos minus,laudantium <br>
+                 repudiandae adipisci itaque ad.
+            </p>
+            <a href="#">Buy Now</a>
+        </div>
+        <div class="imgBx">
+            <img src="./images/./watch.png" alt="">
+        </div>
+        <ul class="sci">
+            <li><a href="#"><img src="./images/facebook.png" alt=""></a></li>
+            <li><a href="#"><img src="./images/twitter.png" alt=""></a></li>
+            <li><a href="#"><img src="./images/instagram.png" alt=""></a></li>
+        </ul>
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Store</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+   
+</section>
+
+
+<script>
+    function toggle(){
+        const humbarger = document.querySelector(".toggle")
+        humbarger.classList.toggle("active")
+        const banner = document.querySelector(".banner")
+        banner.classList.toggle("active")
+    }
+</script>
+</body>
+</html>
